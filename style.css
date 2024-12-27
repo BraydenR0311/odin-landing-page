@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+#logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.hero-header {
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    margin: 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+    text-align: center;
+}
+
+.img-container img {
+    outline: #3882f6 solid 2px;
+    border-radius: 15px;
+}
+
+.quote {
+    background-color: lightgray;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote .author {
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
+
+.container {
+
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+button {
+    border: none;
+    display: flex;
+    max-width: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    outline: #f9faf8 solid 2px;
+    border-radius: 10px;
+    height: 2em;
+}
+
+.hero button {
+    outline: none
+} 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
